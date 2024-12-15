@@ -1,0 +1,40 @@
+.filters {
+    width: 20%;
+    padding: 1rem;
+    background-color: #f9f6f3;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    font-family: Arial, sans-serif;
+  
+    h3 {
+      font-size: 1.2rem;
+      font-weight: bold;
+      color: #333;
+      margin-bottom: 1rem;
+    }
+  
+    .filterCategory {
+      ul {
+        list-style: none;
+        padding: 0;
+  
+        li {
+          display: flex;
+          align-items: center;
+          margin-bottom: 0.5rem;
+  
+          input[type="checkbox"] {
+            margin-right: 0.5rem;
+            cursor: pointer;
+          }
+  
+          label {
+            font-size: 1rem;
+            color: #555;
+            cursor: pointer;
+          }
+        }
+      }
+    }
+  }
+  
