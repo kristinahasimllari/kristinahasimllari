@@ -17,10 +17,9 @@ const Home = () => {
     <div className={home}>
       <section className={productSection}>
         <header className={banner}>
-          <h1>Natural Beauty Skincare</h1>
+          <h1>Natural Beauty Skin & Hair care</h1>
           <p>
-            Experience a luxurious skincare solution meticulously designed to
-            nourish, protect, and enhance the natural beauty of every skin.
+          Experience a luxurious hair and skincare solution meticulously designed to nourish, protect, and enhance the natural beauty of your hair and skin.
           </p>
         </header>
 
