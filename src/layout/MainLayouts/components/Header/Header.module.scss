@@ -1,10 +1,10 @@
 .header {
-    background-color: #f9f6f3; // Match the background color with other sections
+    background-color: #f9f6f3; 
     padding: 1rem 2rem;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    border-bottom: 1px solid #e0e0e0; // Soft border color for separation
+    border-bottom: 1px solid #e0e0e0;
     font-family: Arial, sans-serif;
   }
   
@@ -19,7 +19,7 @@
     align-items: center;
   
     .logoImg {
-      width: 60px; // Adjusted for better visibility
+      width: 60px; 
       height: auto;
     }
   }
@@ -39,11 +39,11 @@
   
     li a {
       text-decoration: none;
-      color: #333; // Base link color
+      color: #333; 
       transition: color 0.3s ease-in-out;
   
       &:hover {
-        color: #b87c4a; // Hover color matches the theme
+        color: #b87c4a; 
       }
     }
   }

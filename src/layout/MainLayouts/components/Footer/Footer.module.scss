@@ -1,24 +1,17 @@
 // Footer Container
 .footer {
-    background-color: #f9f6f3; // Light background to match the design
-    color: #333; // Dark gray text color
-    text-align: center; // Center the content
-    padding: 1.5rem 0; // Vertical padding
-    font-size: 1rem; // Adjust the font size
-    font-weight: 500; // Slightly bold text
-    border-top: 1px solid #e0e0e0; // Subtle border on the top
+    background-color: #f9f6f3;
+    color: #333; 
+    text-align: center; 
+    padding: 1.5rem 0; 
+    font-size: 1rem; 
+    font-weight: 500;
+    border-top: 1px solid #e0e0e0;
   
     p {
-      margin: 0; // Remove default paragraph margin
-      letter-spacing: 0.5px; // Improve readability
+      margin: 0; 
+      letter-spacing: 0.5px; 
     }
   }
-  
-  // Responsive Design for smaller screens
-  @media (max-width: 768px) {
-    .footer {
-      font-size: 0.9rem;
-      padding: 1rem 0;
-    }
-  }
+
   
