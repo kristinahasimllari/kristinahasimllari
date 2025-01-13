@@ -16,7 +16,7 @@ const Home = () => {
   useEffect(() => {
     const fetchProducts = async () => {
       try {
-        const response = await fetch('https://676c1590bc36a202bb86a8e0.mockapi.io/api/v1/products'); // Replace with your MockAPI endpoint
+        const response = await fetch('https://676c1590bc36a202bb86a8e0.mockapi.io/api/v1/products');
         const data = await response.json();
         setProducts(data);
         setFilteredProducts(data);

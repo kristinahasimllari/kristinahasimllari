@@ -3,7 +3,7 @@ import { useParams } from 'react-router-dom';
 import classes from './ProductDetails.module.scss';
 
 const ProductDetails = () => {
-  const { id } = useParams(); // Extract the product ID from the route parameters
+  const { id } = useParams(); 
   const [product, setProduct] = useState(null);
   const [error, setError] = useState(null);
 
@@ -12,7 +12,7 @@ const ProductDetails = () => {
       try {
         const response = await fetch(
           `https://676c1590bc36a202bb86a8e0.mockapi.io/api/v1/products/${id}`
-        ); 
+        );
         if (!response.ok) {
           throw new Error('Failed to fetch product details');
         }
